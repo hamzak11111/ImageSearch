@@ -1,0 +1,11 @@
+Bed
+Bench
+Cabinetry
+Chair
+Desk
+Lamp
+Wardrobe
+Pillow
+Shelf
+Sofa bed
+Table
