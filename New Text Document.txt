@@ -1,0 +1,11 @@
+tasks:
+
+imagegpt embeddings
+clip embeddings
+add time code
+
+integrate yolov9 training code
+
+write object_detection_model_evaluation code
+
+run pipeline
