@@ -11,23 +11,24 @@ ImageSearch is a repository designed for fetching and organizing image datasets 
 ---
 
 ## Directory Structure
-The repository is organized as follows:
+The repository is organized as follows (**Note:** You need to fetch Dataset in order for the OID folder to be created):
 ```
 ImageSearch/
 ├── 1) Data_Collection/
-|   ├── csv_folder/
-|   ├── Dataset/
-|       ├── train/
-|           ├── Class_Name_1/
-|               ├── Label/
-|                   ├── image1.jpg
-|                   ├── image2.jpg
-|                   ...
-|           ├── Class_Name_2/
-|               ├── Label/
-|                   ├── image1.jpg
-|                   ├── image2.jpg
-|                   ...
+|   ├──OID/
+|       ├── csv_folder/
+|       ├── Dataset/
+|           ├── train/
+|               ├── Class_Name_1/
+|                   ├── Label/
+|                       ├── image1.jpg
+|                       ├── image2.jpg
+|                       ...
+|               ├── Class_Name_2/
+|                   ├── Label/
+|                       ├── image1.jpg
+|                       ├── image2.jpg
+|                       ...
 ├── 2) Images_to_Embeddings/
     ├── CLIP/
         ├── clip_embeddings.ipynb
